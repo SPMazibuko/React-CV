@@ -1,0 +1,16 @@
+h1, p {
+  font-family: Lato;
+}
+
+#header, #left{
+  background-color: skyblue;
+}
+
+p {
+  font-size: 13px;
+}
+
+ListItem {
+  text-align: left;
+  font-size: 10px;
+}
