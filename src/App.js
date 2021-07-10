@@ -16,7 +16,9 @@ import EmailRoundedIcon from '@material-ui/icons/EmailRounded';
 import PhoneAndroidRoundedIcon from '@material-ui/icons/PhoneAndroidRounded';
 import LocationOnRoundedIcon from '@material-ui/icons/LocationOnRounded';
 import Link from '@material-ui/core/Link';
-import CssBaseLine from '@material-ui/core';
+import { createTheme, ThemeProvider } from '@material-ui/core/styles';
+import CssBaseline from '@material-ui/core/CssBaseline';
+import useMediaQuery from '@material-ui/core/useMediaQuery';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -24,7 +26,7 @@ const useStyles = makeStyles((theme) => ({
     flexGrow: 1,
   },
   paper: {
-    padding: theme.spacing(1),
+    padding: theme.spacing(3),
     textAlign: 'center',
     color: theme.palette.text.secondary,
   },
@@ -43,6 +45,7 @@ export default function App() {
 
   const classes = useStyles();
   const preventDefault = (event) => event.preventDefault();
+
 
   return (
     <div className={classes.root}>
