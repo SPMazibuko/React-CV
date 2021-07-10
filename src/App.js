@@ -8,7 +8,6 @@ import Divider from '@material-ui/core/Divider';
 import Typography from '@material-ui/core/Typography';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
-import { createTheme, responsiveFontSizes, ThemeProvider } from '@material-ui/core/styles';
 import ListItemText from '@material-ui/core/ListItemText';
 import ListItemAvatar from '@material-ui/core/ListItemAvatar';
 import AccessAlarmIcon from '@material-ui/icons/AccessAlarm';
@@ -17,6 +16,7 @@ import EmailRoundedIcon from '@material-ui/icons/EmailRounded';
 import PhoneAndroidRoundedIcon from '@material-ui/icons/PhoneAndroidRounded';
 import LocationOnRoundedIcon from '@material-ui/icons/LocationOnRounded';
 import Link from '@material-ui/core/Link';
+import CssBaseLine from '@material-ui/core';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -49,7 +49,7 @@ export default function App() {
         <Grid container spacing={1}>
           <Grid item xs={12}> 
             <Paper className={classes.paper}  id="header">
-              <h1>Sifiso P Mazibuko</h1>
+              <Typography variant="h3">Sifiso P Mazibuko</Typography>
               <h3>Computer Systems Engineer.</h3>
             </Paper>
           </Grid>
@@ -186,5 +186,6 @@ Pretoria, 0002" />
         </Grid>
       
     </div>
+
   );
 }
