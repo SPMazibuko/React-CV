@@ -48,7 +48,8 @@ export default function App() {
 
   return (
     <div className={classes.root}>
-        <Grid container spacing={1}>
+        <Grid container spacing={1}
+          style={{height:"1000px"}}>
           <Grid item xs={12}> 
             <Paper className={classes.paper}  id="header">
               <Typography variant="h3">Sifiso P Mazibuko</Typography>
