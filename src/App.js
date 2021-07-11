@@ -142,15 +142,14 @@ Pretoria, 0002" />
                   <p>These are some of the projects I have created so far, and most of them are not online. Please contact me if you need to see more of my projects.
 
                   <ul>
-    <li><Link href="https://codepen.io/spmazibuko/full/ZELyOVY" onClick={preventDefault}>
-    Student Resident Survey
-      </Link></li>
-    <li><Link href="https://codepen.io/spmazibuko/full/poRrPoN" onClick={preventDefault}>
+    <li>
+    <a href = "https://codepen.io/spmazibuko/full/ZELyOVY"> Student Resident Survey </a></li>
+    <li><a href="https://codepen.io/spmazibuko/full/poRrPoN" >
     Product Landing
-      </Link></li>
-    <li><Link href="https://codepen.io/spmazibuko/full/vYgeWNE" onClick={preventDefault}>
+      </a></li>
+    <li><a href="https://codepen.io/spmazibuko/full/vYgeWNE" >
     Technical Documentation
-      </Link></li>
+      </a></li>
   </ul> 
                   </p>
                 </div>
