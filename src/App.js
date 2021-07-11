@@ -23,7 +23,7 @@ import useMediaQuery from '@material-ui/core/useMediaQuery';
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    flexGrow: 1,
+    
   },
   paper: {
     padding: theme.spacing(3),
@@ -37,7 +37,6 @@ const useStyles = makeStyles((theme) => ({
   small: {
     width: theme.spacing(3),
     height: theme.spacing(3),
-    textAlign: 'left',
   },
 }));
 
@@ -59,17 +58,17 @@ export default function App() {
 
           <Grid item xs={5}>
             <Paper className={classes.paper} id="left">
-              <div id="image">
+              <div id="image" align='center'>
               <Avatar alt="Sifiso Mazibuko" src="https://scontent.fjnb11-1.fna.fbcdn.net/v/t1.18169-9/983851_986869421386358_1963716742153717981_n.jpg?_nc_cat=104&ccb=1-3&_nc_sid=174925&_nc_eui2=AeEuJv5NA1-wZqL0DHp5ozEC8mcasgTiXnvyZxqyBOJee4JpRxRSEQkVTitc2WUZBkRCJcTYGI3ayu0f99g2laS9&_nc_ohc=mOtL6h6zOPgAX_Dse-Y&_nc_ht=scontent.fjnb11-1.fna&oh=69ac49152f44043e5ca6b00458d1abf2&oe=60ED5330" className={classes.large}/>
               <Typography></Typography>
               <h4>Contact info</h4>
               <Divider variant="middle" />
               </div>
 
-              <div id="contact">
+              <div textAlign="left" id="contact">
                 
               <List >
-      <ListItem >
+      <ListItem>
         <ListItemAvatar >
           <Avatar className={classes.small}>
           <EmailRoundedIcon fontSize="small"/>
@@ -103,7 +102,7 @@ Pretoria, 0002" />
               <Divider variant="middle" />
               </div>
 
-              <div id="Education">
+              <div id="Education" textAlign="left">
                 <List className={classes.root}>
       <ListItem>
         <ListItemText primary="Matric (Grade12)" secondary="Indonsa High School, 2006 - 2010" />
