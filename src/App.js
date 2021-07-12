@@ -186,17 +186,20 @@ Pretoria, 0002" secondary="" />
                   <Divider variant="middle" />
 
                   
-                 <p> <ul>
-    <li><h5>Microsoft Office package:</h5>
+                 <p> <ul style={{display:'flex'}}>
+    <li><h4>Microsoft Office package:</h4>
       Microsoft Word, Microsoft Excel, Microsoft Access, Microsoft Visio.</li>
-    <li><h5>Database operations:</h5>
-    Oracle 8i, SQL Server 2005, MySQL.  
-    </li>
-    <li><h5>Programming:</h5>
+    <li><h4>Programming:</h4>
     C++, SQL, HTML5,Java, Python, (PLC)Ladder Logic, VHDL, Arduino, Processing, Assembler, Android, CSS3, Ionic 4. 
     </li>
-    <li><h5>Assembling Components.</h5></li>
+ 
   </ul> 
+  <ul style={{display:'flex'}}>
+  <li><h4>Database operations:</h4>
+    Oracle 8i, SQL Server 2005, MySQL.  
+    </li>
+    <li><h4>Assembling Components.</h4></li>
+    </ul>
                  </p>
                 </div>
                 <div id="PersonalAttributes">
