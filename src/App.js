@@ -31,8 +31,8 @@ const useStyles = makeStyles((theme) => ({
     color: theme.palette.text.secondary,
   },
   large: {
-    width: theme.spacing(15),
-    height: theme.spacing(15),
+    width: theme.spacing(20),
+    height: theme.spacing(20),
   },
   small: {
     width: theme.spacing(3),
@@ -43,13 +43,11 @@ const useStyles = makeStyles((theme) => ({
 export default function App() {
 
   const classes = useStyles();
-  const preventDefault = (event) => event.preventDefault();
-
 
   return (
     <div className={classes.root}>
         <Grid container spacing={1}
-          style={{height:"1000px"}}>
+          style={{height:"100px"}}>
           <Grid item xs={12}> 
             <Paper className={classes.paper}  id="header">
               <Typography variant="h3">Sifiso P Mazibuko</Typography>
