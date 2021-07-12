@@ -87,17 +87,13 @@ Pretoria, 0002" secondary="" />
               </div>
 
               <div id="Education" textAlign="left">
-                <List className={classes.root}>
-      <ListItem>
-        <ListItemText primary="Matric (Grade12)" secondary="Indonsa High School, 2006 - 2010" />
-      </ListItem>
-      <ListItem>
-        <ListItemText primary="Mobile Applications Development" secondary="Amajuba College, 2011 - 2013" />
-      </ListItem>
-      <ListItem>
-        <ListItemText primary="N.Dip Engineering computer Systems" secondary="Tshwane University of Technology, 2017 - 2020" />
-      </ListItem>
-      </List>
+              <p><b>Matric (Grade12)</b><br/>
+              Indonsa High School, 2006 - 2010" </p>
+          <p>
+            <b>Mobile Applications Development</b><br/>Amajuba College, 2011 - 2013<br/></p>
+            <p>
+            <b>N.Dip Engineering computer Systems</b><br/> Tshwane University of Technology, 2017 - 2020
+          </p>
       </div>
       <div>
       <h4>REFERENCE</h4>
@@ -108,7 +104,39 @@ Pretoria, 0002" secondary="" />
             <b>Email:</b> tshepomoshabane3@gmail.com<br/>
             <b>Mobile:</b> 071-822-2858
           </p>
-      
+          <List className={classes.root}>
+      <ListItem>
+        <ListItemText primary="" secondary="" />
+      </ListItem>
+      <ListItem>
+        <ListItemText primary="" secondary="" />
+      </ListItem>
+      <ListItem>
+        <ListItemText primary="" secondary="" />
+      </ListItem>
+      </List>
+      <List className={classes.root}>
+      <ListItem>
+        <ListItemText primary="" secondary="" />
+      </ListItem>
+      <ListItem>
+        <ListItemText primary="" secondary="" />
+      </ListItem>
+      <ListItem>
+        <ListItemText primary="" secondary="" />
+      </ListItem>
+      </List>
+      <List className={classes.root}>
+      <ListItem>
+        <ListItemText primary="" secondary="" />
+      </ListItem>
+      <ListItem>
+        <ListItemText primary="" secondary="" />
+      </ListItem>
+      <ListItem>
+        <ListItemText primary="" secondary="" />
+      </ListItem>
+      </List>
              </div> 
             </Paper>
           </Grid>
