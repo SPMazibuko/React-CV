@@ -13,6 +13,7 @@ import ListItemAvatar from '@material-ui/core/ListItemAvatar';
 import EmailRoundedIcon from '@material-ui/icons/EmailRounded';
 import PhoneAndroidRoundedIcon from '@material-ui/icons/PhoneAndroidRounded';
 import LocationOnRoundedIcon from '@material-ui/icons/LocationOnRounded';
+import Box from '@material-ui/core/Box';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -22,7 +23,7 @@ const useStyles = makeStyles((theme) => ({
   paper: {
     padding: theme.spacing(3),
     textAlign: 'center',
-    color: theme.palette.text.secondary,
+    color: '#FFFFFF',
   },
   large: {
     width: theme.spacing(20),
@@ -40,21 +41,14 @@ export default function App() {
 
   return (
     <div className={classes.root}>
-        <Grid container spacing={1}
-          style={{height:"100px"}}>
-          <Grid item xs={12}> 
-            <Paper className={classes.paper}  id="header">
-              <Typography variant="h3">Sifiso P Mazibuko</Typography>
-              <h3>Computer Systems Engineer.</h3>
-            </Paper>
-          </Grid>
-
-          <Grid item xs={5}>
+        <Grid container spacing={2}
+          style={{height:"150px"}}>
+          <Grid item xs={5} >
             <Paper className={classes.paper} id="left">
               <div id="image" align='center'>
               <Avatar alt="Sifiso Mazibuko" src="https://scontent.fjnb11-1.fna.fbcdn.net/v/t1.18169-9/983851_986869421386358_1963716742153717981_n.jpg?_nc_cat=104&ccb=1-3&_nc_sid=174925&_nc_eui2=AeEuJv5NA1-wZqL0DHp5ozEC8mcasgTiXnvyZxqyBOJee4JpRxRSEQkVTitc2WUZBkRCJcTYGI3ayu0f99g2laS9&_nc_ohc=mOtL6h6zOPgAX_Dse-Y&_nc_ht=scontent.fjnb11-1.fna&oh=69ac49152f44043e5ca6b00458d1abf2&oe=60ED5330" className={classes.large}/>
               <Typography></Typography>
-              <h4>Contact info</h4>
+              <h4>CONTACT INFO</h4>
               <Divider variant="middle" />
               </div>
 
@@ -67,10 +61,7 @@ export default function App() {
           <EmailRoundedIcon fontSize="small"/>
           </Avatar>
         </ListItemAvatar>
-        <ListItemText primary="Email"/>
-      </ListItem>
-      <ListItem>
-        <ListItemText secondary="spmazibuko07@gmail.com" />
+        <ListItemText primary="spmazibuko07@gmail.com"/>
       </ListItem>
       <ListItem>
         <ListItemAvatar>
@@ -78,7 +69,7 @@ export default function App() {
             <PhoneAndroidRoundedIcon fontSize="small"/>
           </Avatar>
         </ListItemAvatar>
-        <ListItemText primary="Phone" secondary="068-028-7251" />
+        <ListItemText primary="068-028-7251" />
       </ListItem>
       <ListItem>
         <ListItemAvatar>
@@ -86,12 +77,12 @@ export default function App() {
             <LocationOnRoundedIcon fontSize="small"/>
           </Avatar>
         </ListItemAvatar>
-        <ListItemText primary="Location" secondary="153 Troye Street, Sunnyside
-Pretoria, 0002" />
+        <ListItemText primary="153 Troye Street, Sunnyside
+Pretoria, 0002" secondary="" />
       </ListItem>
     </List>
 
-    <h4>Education</h4>
+    <h4>EDUCATION</h4>
               <Divider variant="middle" />
               </div>
 
@@ -107,11 +98,27 @@ Pretoria, 0002" />
         <ListItemText primary="N.Dip Engineering computer Systems" secondary="Tshwane University of Technology, 2017 - 2020" />
       </ListItem>
       </List>
-              </div>
+      </div>
+      <div>
+      <h4>REFERENCE</h4>
+      <Divider/>
+      <p><b>Mr Tsepo Moshabane</b><br/>
+          Ex-Codetribe Intern </p>
+          <p>
+            <b>Email:</b> tshepomoshabane3@gmail.com<br/>
+            <b>Mobile:</b> 071-822-2858
+          </p>
+      
+             </div> 
             </Paper>
           </Grid>
-
-          <Grid item xs={7}>
+          <Grid item xs={7}> 
+            <Paper style={{textAlign: 'center', color: '#000000', padding: '30px'}} id="header">
+              <Typography variant="h3">Sifiso P Mazibuko</Typography>
+              <h3>Computer Systems Engineer.</h3>
+            </Paper>
+            <Grid item xs={12}>
+            <Box p={2} bgcolor="background.paper">
             <Paper  id="right">
                 <div textAlign="left" id="Employment">
                   <h3>Employment History</h3>
@@ -175,7 +182,10 @@ Pretoria, 0002" />
 
                 </div>
             </Paper>
+            </Box>
           </Grid>
+          </Grid>
+         
 
         </Grid>
       
