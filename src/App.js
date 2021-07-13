@@ -48,12 +48,12 @@ export default function App() {
               <div id="image" align='center'>
               <Avatar alt="Sifiso Mazibuko" src="https://scontent.fjnb11-1.fna.fbcdn.net/v/t1.18169-9/983851_986869421386358_1963716742153717981_n.jpg?_nc_cat=104&ccb=1-3&_nc_sid=174925&_nc_eui2=AeEuJv5NA1-wZqL0DHp5ozEC8mcasgTiXnvyZxqyBOJee4JpRxRSEQkVTitc2WUZBkRCJcTYGI3ayu0f99g2laS9&_nc_ohc=mOtL6h6zOPgAX_Dse-Y&_nc_ht=scontent.fjnb11-1.fna&oh=69ac49152f44043e5ca6b00458d1abf2&oe=60ED5330" className={classes.large}/>
               <Typography></Typography>
-              <h4>CONTACT INFO</h4>
-              <Divider variant="middle" />
+              
               </div>
 
               <div textAlign="left" id="contact">
-                
+              <h4>CONTACT INFO</h4>
+              <hr style={{width:"20%",textAlign:"left",marginLeft:"2"}}/>
               <List >
       <ListItem>
         <ListItemAvatar >
@@ -83,7 +83,7 @@ Pretoria, 0002" secondary="" />
     </List>
 
     <h4>EDUCATION</h4>
-              <Divider variant="middle" />
+    <hr style={{width:"20%",textAlign:"center",marginLeft:"2"}}/>
               </div>
 
               <div id="Education" textAlign="left">
@@ -97,7 +97,7 @@ Pretoria, 0002" secondary="" />
       </div>
       <div>
       <h4>REFERENCE</h4>
-      <Divider/>
+      <hr style={{width:"20%",textAlign:"left",marginLeft:"2"}}/>
       <p><b>Mr Tsepo Moshabane</b><br/>
           Ex-Codetribe Intern </p>
           <p>
@@ -143,6 +143,7 @@ Pretoria, 0002" secondary="" />
           <Grid item xs={7}> 
             <Paper style={{textAlign: 'center', color: '#000000', padding: '30px'}} id="header">
               <Typography variant="h3">Sifiso P Mazibuko</Typography>
+              <hr style={{width:"50%",textAlign:"left",marginLeft:"20"}}/>
               <h3>Computer Systems Engineer.</h3>
             </Paper>
             <Grid item xs={12}>
@@ -150,7 +151,7 @@ Pretoria, 0002" secondary="" />
             <Paper  id="right">
                 <div textAlign="left" id="Employment">
                   <h3>Employment History</h3>
-                  <Divider variant="middle" />
+                  <hr style={{width:"30%",textAlign:"left",marginLeft:"0"}}/>
                   <p><strong>COMPANY:</strong> OK FURNITURES. <br/><strong>POSITION:</strong> Stock Clerk. 
 <br/><strong>PERIOD:</strong> 02/2014 – 01/2017.<br/>    
 <strong>DUTIES & RESPONSIBILITIES:</strong><br/> 
@@ -165,7 +166,7 @@ Pretoria, 0002" secondary="" />
 
                 <div id="Projects">
                   <h3>Projects</h3>
-                  <Divider variant="middle" />
+                  <hr style={{width:"10%",textAlign:"left",marginLeft:"0"}}/>
                   <p>These are some of the projects I have created so far, and most of them are not online. Please contact me if you need to see more of my projects.
 
                   <ul>
@@ -183,7 +184,7 @@ Pretoria, 0002" secondary="" />
 
                 <div id="skills">
                   <h3>skills</h3>
-                  <Divider variant="middle" />
+                  <hr style={{width:"6%",textAlign:"center",marginLeft:"0"}}/>
 
                   
                  <p> <ul style={{display:'flex'}}>
@@ -204,7 +205,7 @@ Pretoria, 0002" secondary="" />
                 </div>
                 <div id="PersonalAttributes">
                     <h3>Personal Attributes</h3>
-                    <Divider variant="middle" />
+                    <hr style={{width:"23%",textAlign:"left",marginLeft:"0"}}/>
                     <p>
                     Hardworking, Dedicated, Team Player, Responsible, Eager & fast learner, Natural leader.
                     <br/>
