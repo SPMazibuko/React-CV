@@ -22,7 +22,7 @@ const useStyles = makeStyles((theme) => ({
   },
   paper: {
     padding: theme.spacing(3),
-    textAlign: 'center',
+    textAlign: 'left',
     color: '#FFFFFF',
   },
   large: {
@@ -53,7 +53,7 @@ export default function App() {
 
               <div textAlign="left" id="contact">
               <h4>CONTACT INFO</h4>
-              <hr style={{width:"20%",textAlign:"left",marginLeft:"2"}}/>
+              <hr style={{width:"20%",textAlign:"left",marginLeft:"2%"}}/>
               <List >
       <ListItem>
         <ListItemAvatar >
@@ -83,7 +83,7 @@ Pretoria, 0002" secondary="" />
     </List>
 
     <h4>EDUCATION</h4>
-    <hr style={{width:"20%",textAlign:"center",marginLeft:"2"}}/>
+    <hr style={{width:"20%",textAlign:"center",marginLeft:"2%"}}/>
               </div>
 
               <div id="Education" textAlign="left">
@@ -97,7 +97,7 @@ Pretoria, 0002" secondary="" />
       </div>
       <div>
       <h4>REFERENCE</h4>
-      <hr style={{width:"20%",textAlign:"left",marginLeft:"2"}}/>
+      <hr style={{width:"20%",textAlign:"left",marginLeft:"2%"}}/>
       <p><b>Mr Tsepo Moshabane</b><br/>
           Ex-Codetribe Intern </p>
           <p>
@@ -127,9 +127,6 @@ Pretoria, 0002" secondary="" />
       </ListItem>
       </List>
       <List className={classes.root}>
-      <ListItem>
-        <ListItemText primary="" secondary="" />
-      </ListItem>
       <ListItem>
         <ListItemText primary="" secondary="" />
       </ListItem>
