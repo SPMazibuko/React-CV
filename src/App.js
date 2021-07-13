@@ -53,7 +53,7 @@ export default function App() {
 
               <div textAlign="left" id="contact">
               <h4>CONTACT INFO</h4>
-              <hr style={{width:"20%",textAlign:"left",marginLeft:"2%"}}/>
+              <hr style={{width:"18%",textAlign:"left",marginLeft:"2%"}}/>
               <List >
       <ListItem>
         <ListItemAvatar >
@@ -83,7 +83,7 @@ Pretoria, 0002" secondary="" />
     </List>
 
     <h4>EDUCATION</h4>
-    <hr style={{width:"20%",textAlign:"center",marginLeft:"2%"}}/>
+    <hr style={{width:"14%",textAlign:"center",marginLeft:"2%"}}/>
               </div>
 
               <div id="Education" textAlign="left">
@@ -97,7 +97,7 @@ Pretoria, 0002" secondary="" />
       </div>
       <div>
       <h4>REFERENCE</h4>
-      <hr style={{width:"20%",textAlign:"left",marginLeft:"2%"}}/>
+      <hr style={{width:"15%",textAlign:"left",marginLeft:"2%"}}/>
       <p><b>Mr Tsepo Moshabane</b><br/>
           Ex-Codetribe Intern </p>
           <p>
@@ -126,21 +126,14 @@ Pretoria, 0002" secondary="" />
         <ListItemText primary="" secondary="" />
       </ListItem>
       </List>
-      <List className={classes.root}>
-      <ListItem>
-        <ListItemText primary="" secondary="" />
-      </ListItem>
-      <ListItem>
-        <ListItemText primary="" secondary="" />
-      </ListItem>
-      </List>
+
              </div> 
             </Paper>
           </Grid>
           <Grid item xs={7}> 
             <Paper style={{textAlign: 'center', color: '#000000', padding: '30px'}} id="header">
               <Typography variant="h3">Sifiso P Mazibuko</Typography>
-              <hr style={{width:"50%",textAlign:"left",marginLeft:"20"}}/>
+              <hr style={{width:"30%",textAlign:"left",marginLeft:"35%"}}/>
               <h3>Computer Systems Engineer.</h3>
             </Paper>
             <Grid item xs={12}>
@@ -148,7 +141,7 @@ Pretoria, 0002" secondary="" />
             <Paper  id="right">
                 <div textAlign="left" id="Employment">
                   <h3>Employment History</h3>
-                  <hr style={{width:"30%",textAlign:"left",marginLeft:"0"}}/>
+                  <hr style={{width:"19%",textAlign:"left",marginLeft:"1%"}}/>
                   <p><strong>COMPANY:</strong> OK FURNITURES. <br/><strong>POSITION:</strong> Stock Clerk. 
 <br/><strong>PERIOD:</strong> 02/2014 – 01/2017.<br/>    
 <strong>DUTIES & RESPONSIBILITIES:</strong><br/> 
@@ -163,7 +156,7 @@ Pretoria, 0002" secondary="" />
 
                 <div id="Projects">
                   <h3>Projects</h3>
-                  <hr style={{width:"10%",textAlign:"left",marginLeft:"0"}}/>
+                  <hr style={{width:"6%",textAlign:"left",marginLeft:"1%"}}/>
                   <p>These are some of the projects I have created so far, and most of them are not online. Please contact me if you need to see more of my projects.
 
                   <ul>
@@ -181,7 +174,7 @@ Pretoria, 0002" secondary="" />
 
                 <div id="skills">
                   <h3>skills</h3>
-                  <hr style={{width:"6%",textAlign:"center",marginLeft:"0"}}/>
+                  <hr style={{width:"3%",textAlign:"center",marginLeft:"1%"}}/>
 
                   
                  <p> <ul style={{display:'flex'}}>
@@ -202,7 +195,7 @@ Pretoria, 0002" secondary="" />
                 </div>
                 <div id="PersonalAttributes">
                     <h3>Personal Attributes</h3>
-                    <hr style={{width:"23%",textAlign:"left",marginLeft:"0"}}/>
+                    <hr style={{width:"17%",textAlign:"left",marginLeft:"1%"}}/>
                     <p>
                     Hardworking, Dedicated, Team Player, Responsible, Eager & fast learner, Natural leader.
                     <br/>
