@@ -4,7 +4,6 @@ import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import Avatar from '@material-ui/core/Avatar';
-import Divider from '@material-ui/core/Divider';
 import Typography from '@material-ui/core/Typography';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
@@ -18,12 +17,17 @@ import Box from '@material-ui/core/Box';
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    
+    align: 'center',
+    paddingLeft: 100,
+    paddingRight: 100,
+    paddingTop: 30,
+    //paddingBottom: 10,
   },
   paper: {
-    padding: theme.spacing(3),
+    padding: theme.spacing(2),
     textAlign: 'left',
     color: '#FFFFFF',
+    paddingLeft: 30,
   },
   large: {
     width: theme.spacing(20),
@@ -41,7 +45,7 @@ export default function App() {
 
   return (
     <div className={classes.root}>
-        <Grid container spacing={2}
+        <Grid container spacing={1}
           style={{height:"150px"}}>
           <Grid item xs={5} >
             <Paper className={classes.paper} id="left">
@@ -53,7 +57,7 @@ export default function App() {
 
               <div textAlign="left" id="contact">
               <h4>CONTACT INFO</h4>
-              <hr style={{width:"18%",textAlign:"left",marginLeft:"2%"}}/>
+              <hr style={{width:"90%",textAlign:"left",marginLeft:"0"}}/>
               <List >
       <ListItem>
         <ListItemAvatar >
@@ -83,7 +87,7 @@ Pretoria, 0002" secondary="" />
     </List>
 
     <h4>EDUCATION</h4>
-    <hr style={{width:"14%",textAlign:"center",marginLeft:"2%"}}/>
+    <hr style={{width:"90%",textAlign:"center",marginLeft:"0"}}/>
               </div>
 
               <div id="Education" textAlign="left">
@@ -97,7 +101,7 @@ Pretoria, 0002" secondary="" />
       </div>
       <div>
       <h4>REFERENCE</h4>
-      <hr style={{width:"15%",textAlign:"left",marginLeft:"2%"}}/>
+      <hr style={{width:"90%",textAlign:"left",marginLeft:"0"}}/>
       <p><b>Mr Tsepo Moshabane</b><br/>
           Ex-Codetribe Intern </p>
           <p>
@@ -114,11 +118,6 @@ Pretoria, 0002" secondary="" />
       <ListItem>
         <ListItemText primary="" secondary="" />
       </ListItem>
-      </List>
-      <List className={classes.root}>
-      <ListItem>
-        <ListItemText primary="" secondary="" />
-      </ListItem>
       <ListItem>
         <ListItemText primary="" secondary="" />
       </ListItem>
@@ -131,17 +130,17 @@ Pretoria, 0002" secondary="" />
             </Paper>
           </Grid>
           <Grid item xs={7}> 
-            <Paper style={{textAlign: 'center', color: '#000000', padding: '30px'}} id="header">
+            <Paper style={{textAlign: 'center', color: '#000000', padding: '20px'}} id="header" elevation={0} >
               <Typography variant="h3">Sifiso P Mazibuko</Typography>
-              <hr style={{width:"30%",textAlign:"left",marginLeft:"35%"}}/>
+              <hr style={{width:"90%",textAlign:"left",marginLeft:"20px"}}/>
               <h3>Computer Systems Engineer.</h3>
             </Paper>
             <Grid item xs={12}>
             <Box p={2} bgcolor="background.paper">
-            <Paper  id="right">
+            <Paper  id="right" elevation={0} >
                 <div textAlign="left" id="Employment">
                   <h3>Employment History</h3>
-                  <hr style={{width:"19%",textAlign:"left",marginLeft:"1%"}}/>
+                  <hr style={{width:"100%",textAlign:"left",marginLeft:"0%"}}/>
                   <p><strong>COMPANY:</strong> OK FURNITURES. <br/><strong>POSITION:</strong> Stock Clerk. 
 <br/><strong>PERIOD:</strong> 02/2014 – 01/2017.<br/>    
 <strong>DUTIES & RESPONSIBILITIES:</strong><br/> 
@@ -156,7 +155,7 @@ Pretoria, 0002" secondary="" />
 
                 <div id="Projects">
                   <h3>Projects</h3>
-                  <hr style={{width:"6%",textAlign:"left",marginLeft:"1%"}}/>
+                  <hr style={{width:"100%",textAlign:"left",marginLeft:"0%"}}/>
                   <p>These are some of the projects I have created so far, and most of them are not online. Please contact me if you need to see more of my projects.
 
                   <ul>
@@ -174,7 +173,7 @@ Pretoria, 0002" secondary="" />
 
                 <div id="skills">
                   <h3>skills</h3>
-                  <hr style={{width:"3%",textAlign:"center",marginLeft:"1%"}}/>
+                  <hr style={{width:"100%",textAlign:"center",marginLeft:"0"}}/>
 
                   
                  <p> <ul style={{display:'flex'}}>
@@ -195,7 +194,7 @@ Pretoria, 0002" secondary="" />
                 </div>
                 <div id="PersonalAttributes">
                     <h3>Personal Attributes</h3>
-                    <hr style={{width:"17%",textAlign:"left",marginLeft:"1%"}}/>
+                    <hr style={{width:"100%",textAlign:"left",marginLeft:"0%"}}/>
                     <p>
                     Hardworking, Dedicated, Team Player, Responsible, Eager & fast learner, Natural leader.
                     <br/>
@@ -207,8 +206,6 @@ Pretoria, 0002" secondary="" />
             </Box>
           </Grid>
           </Grid>
-         
-
         </Grid>
       
     </div>
