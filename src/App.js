@@ -60,27 +60,27 @@ export default function App() {
               <hr style={{width:"90%",textAlign:"left",marginLeft:"0"}}/>
               <List >
       <ListItem>
-        <ListItemAvatar >
-          <Avatar className={classes.small}>
+      
+          
           <EmailRoundedIcon fontSize="small"/>
-          </Avatar>
-        </ListItemAvatar>
+         
+     
         <ListItemText primary="spmazibuko07@gmail.com"/>
       </ListItem>
       <ListItem>
-        <ListItemAvatar>
-          <Avatar className={classes.small}>
+        
+     
             <PhoneAndroidRoundedIcon fontSize="small"/>
-          </Avatar>
-        </ListItemAvatar>
+        
+     
         <ListItemText primary="068-028-7251" />
       </ListItem>
       <ListItem>
-        <ListItemAvatar>
-          <Avatar className={classes.small}>
+       
+  
             <LocationOnRoundedIcon fontSize="small"/>
-          </Avatar>
-        </ListItemAvatar>
+      
+        
         <ListItemText primary="153 Troye Street, Sunnyside
 Pretoria, 0002" secondary="" />
       </ListItem>
